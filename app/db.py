@@ -5,7 +5,7 @@ try:
     conn = psycopg2.connect("host=localhost dbname=fastapi user=postgres password='bhavesh'",cursor_factory=RealDictCursor)
 except Exception as e:
     print(e)
-
+    print('hello')
 
 # while True:
 #   try:
